@@ -27,3 +27,23 @@ a{   /*tag link/ancora*/
 footer{ /*seletor da tag footer/rodape*/
     background-color: #f2f2f2; /*cor de fundo*/
 }
+.caixa-rodape{
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.caixa-rodape--borda{
+    border-bottom: 1px solid #dadce0;/*borda interior*/
+}
+
+header{/*cabeçalho*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 14px;
+}
+.caixa-links{
+    display: flex;
+    gap: 30px;
+}
